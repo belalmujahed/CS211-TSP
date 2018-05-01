@@ -39,7 +39,7 @@ public class tsp {
     private static int calcDistance(double lat1, double lon1, double lat2,
                                        double lon2) {
 
-        final int radius = 6371; // Radius of the earth
+        final int radius = 6377; // Radius of the earth
 
         double latDistance = Math.toRadians(lat2 - lat1);
         double lonDistance = Math.toRadians(lon2 - lon1);
